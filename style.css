@@ -58,3 +58,37 @@ main {
 section {
   margin-bottom: 20px;
 }
+logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #0077cc;
+  cursor: default;
+  margin-bottom: 15px;
+}
+
+.logo-icon {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.logo-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo-text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.2;
+}
+
+.logo-slogan {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #005fa3;
+  margin-top: 2px;
+}
