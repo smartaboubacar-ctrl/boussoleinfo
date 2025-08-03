@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BoussoleInfo - Votre guide de l'actualité</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #1a237e;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      background: #3949ab;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      padding: 15px 20px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #5c6bc0;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+    .article {
+      background: white;
+      margin-bottom: 20px;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1a237e;
+      color: white;
+      margin-top: 20px;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BoussoleInfo</h1>
+    <p>Votre guide de l'actualité en temps réel</p>
+  </header>
+  <nav>
+    <a href="#">Accueil</a>
+    <a href="#">Politique</a>
+    <a href="#">Économie</a>
+    <a href="#">Culture</a>
+    <a href="#">Sport</a>
+  </nav>
+  <div class="container">
+    <div class="article">
+      <h2>📰 Titre d'actualité #1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et sapien vel massa.</p>
+    </div>
+    <div class="article">
+      <h2>📈 Titre d'actualité #2</h2>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+    </div>
+    <div class="article">
+      <h2>🎭 Titre d'actualité #3</h2>
+      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2025 BoussoleInfo - Tous droits réservés</p>
+  </footer>
+</body>
+</html>
